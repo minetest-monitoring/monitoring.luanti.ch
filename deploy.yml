@@ -23,5 +23,5 @@
 
     - name: Create and start services
       shell:
-        cmd: "docker-compose up -d --build --remove-orphans"
+        cmd: "docker compose up -d --build --remove-orphans"
         chdir: "{{ compose_directory }}"
