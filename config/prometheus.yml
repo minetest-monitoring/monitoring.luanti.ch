@@ -48,7 +48,7 @@ scrape_configs:
     - job_name: 'blockexchange'
       scheme: https
       static_configs:
-       - targets: ['blockexchange.minetest.ch']
+       - targets: ['bx.luanti.ch']
 
     # minetest-engine exporter
     - job_name: 'minetest-engine'
@@ -67,7 +67,7 @@ scrape_configs:
       - targets:
         - https://pandorabox.io/
         - https://hosting.luanti.ch
-        - https://blockexchange.minetest.ch
+        - https://bx.luanti.ch
         - https://monitoring.luanti.ch
         - https://content.minetest.net
         - https://forum.minetest.net
